@@ -1,7 +1,7 @@
-function PaginaInicial() {
+import Cabecalho from "../../componentes/Cabecalho";
+
+export default function PaginaInicial() {
     return (
-        <h1>Página inicial do Alura Space</h1>
+        <Cabecalho />
     )
 }
-
-export default PaginaInicial;
